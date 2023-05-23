@@ -1,0 +1,132 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffd569;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.second-container {
+  background-color: #ffffff;
+  height: 70vh;
+  width: 80%;
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+}
+.span {
+  color: #ffd569;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+}
+.mango-btn {
+  background-color: #007bff;
+  border-radius: 4px;
+  height: 4vh;
+  width: 10vw;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 300;
+  border-width: 0px;
+  cursor: pointer;
+}
+.banana-btn {
+  background-color: #007bff;
+  border-radius: 4px;
+  height: 4vh;
+  width: 10vw;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 300;
+  border-width: 0px;
+  cursor: pointer;
+}
+.img {
+  height: 30%;
+  width: 40%;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    background-color: #ffd569;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  .second-container {
+    background-color: #ffffff;
+    height: 70vh;
+    width: 80%;
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading {
+    color: #000000;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .span {
+    color: #ffd569;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .mango-btn {
+    background-color: #007bff;
+    border-radius: 4px;
+    height: 4vh;
+    width: 10vw;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 300;
+    border-width: 0px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  .banana-btn {
+    background-color: #007bff;
+    border-radius: 4px;
+    height: 4vh;
+    width: 10vw;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 300;
+    border-width: 0px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  .img {
+    height: 50%;
+    width: 60%;
+  }
+}
